@@ -34,5 +34,5 @@ The variable as a `string`. If not found `none` is returned.
 
 ```
 import { getenv } from "extras://env";
-echo env("PATH");
+echo getenv("PATH");
 ```
