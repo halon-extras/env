@@ -29,3 +29,10 @@ Get an environment variable as a `string`. If not found `none` is returned.
 **Returns**
 
 The variable as a `string`. If not found `none` is returned.
+
+**Example**
+
+```
+import { getenv } from "extras://env";
+echo env("PATH");
+```
