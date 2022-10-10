@@ -18,6 +18,8 @@ yum install halon-extras-env
 
 ## Exported functions
 
+These functions needs to be [imported](https://docs.halon.io/hsl/structures.html#import) from the `extras://env` module path.
+
 ### getenv(name)
 
 Get an environment variable as a `string`. If not found `none` is returned.
