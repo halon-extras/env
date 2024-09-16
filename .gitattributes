@@ -1,2 +1,3 @@
 build/**/Dockerfile linguist-vendored
+build/**/build.sh linguist-vendored
 CMakeLists.txt linguist-vendored
